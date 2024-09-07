@@ -64,10 +64,21 @@ For Instructors:
 
 ***
 
-## Important
-* Backend is  in the server folder.
-* Before uploading courses and anything create the categories e.g. web dev, Python, etc. (without categories courses cannot be added). To create categories create an Admin account and go to dashboard then admin panel.
-* To create an Admin account first sign up with a student or instructor account then go to your Database under the users model and change that 'accountType' to 'Admin'.
+# Back-end
+The back end of StudyNotion is built with NodeJS and ExpressJS and uses MongoDB as its primary database. Key features and functionalities include:
+
+* User Authentication and Authorization: Secure login, OTP verification, and forgot password functionality.
+* Course Management: Instructors can create, update, delete courses, and students can view and rate them.
+* Payment Integration: Razorpay integration for course purchases.
+* Cloud-based Media Management: Cloudinary for storing and managing media content.
+* Markdown Formatting: Course content is stored in Markdown format for rendering.
+* Frameworks, libraries, and tools used: Node.js, MongoDB, Express.js, JWT for authentication and authorization, Bcrypt for password hashing, and Mongoose for database interaction.
+
+Data Models and Database Schema
+
+* Student Schema: Includes name, email, password, and course details.
+* Instructor Schema: Includes name, email, password, and course details.
+* Course Schema: Includes course name, description, instructor details, and media content.
 
 
 ## Installation
