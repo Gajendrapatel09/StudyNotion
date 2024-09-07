@@ -1,6 +1,6 @@
 # Study Notion
 
-Study Notion is an ED Tech (Education Technology) web application developed using the MERN stack.
+StudyNotion is a versatile and intuitive ed-tech platform that enables users to create, consume, and rate educational content. It provides a seamless and interactive learning experience for students while offering a platform for instructors to showcase their expertise and connect with learners worldwide. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
 
 ***
 ## Features
@@ -25,13 +25,12 @@ Study Notion is an ED Tech (Education Technology) web application developed usin
   
 ***
 ## Screenshots
-![Screenshot 2023-07-25 210844](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/0cba8d5b-6a47-4721-ac9f-4279107c257e)
-<details>
-  <summary>More screenshots</summary>
-  
-![Screenshot 2023-07-25 211451](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/63f7163d-a74a-4e78-bc78-6b96b06073f9)
-![image](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/59d1d8c2-2824-45bb-a2f7-6f5dc234895c)
-</details>
+![Screenshot 2024-09-08 000248](https://github.com/user-attachments/assets/9478a889-8e2a-4adc-a60f-e4457db1fdc1)
+![Screenshot 2024-09-08 005431](https://github.com/user-attachments/assets/e788ba0d-0125-4fa2-a2ca-9b469343da74)
+![Screenshot 2024-09-08 012111](https://github.com/user-attachments/assets/21ac6982-58f0-450c-9b41-99b1fc8d6700)
+![Screenshot 2024-09-08 010517](https://github.com/user-attachments/assets/6556680e-2123-48b6-83cc-8296266f29cf)
+![Screenshot 2024-09-08 010849](https://github.com/user-attachments/assets/575cbd3c-28b2-460f-a1e3-83899a82be72)
+![Screenshot 2024-09-08 010724](https://github.com/user-attachments/assets/dd1d88d1-2d5d-4cc9-a208-2e238f819721)
 
 ***
 
