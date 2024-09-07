@@ -80,6 +80,36 @@ Data Models and Database Schema
 * Instructor Schema: Includes name, email, password, and course details.
 * Course Schema: Includes course name, description, instructor details, and media content.
 
+# API Design
+StudyNotion's API follows the REST architectural style, implemented using Node.js and Express.js. It uses JSON for data exchange and standard HTTP request methods. Sample API endpoints include:
+
+* POST /api/auth/signup: Create a new user account.
+* POST /api/auth/login: Log in and generate a JWT token.
+* POST /api/auth/verify-otp: Verify OTP sent to the user's email.
+* POST /api/auth/forgot-password: Send a password reset link.
+* GET /api/courses: Get a list of all available courses.
+* GET /api/courses/:id: Get details of a specific course.
+* POST /api/courses: Create a new course.
+* PUT /api/courses/:id: Update an existing course.
+* DELETE /api/courses/:id: Delete a course.
+* POST /api/courses/:id/rate: Add a course rating (out of 5).
+
+Sample API requests and responses:
+
+* GET /api/courses: Get all courses
+* Response: A list of all courses in the database
+* GET /api/courses/:id: Get a single course by ID
+* Response: The course with the specified ID
+* POST /api/courses: Create a new course
+* Request: The course details in the request body
+* Response: The newly created course
+* PUT /api/courses/:id: Update an existing course by ID
+* Request: The updated course details in the request body
+* Response: The updated course
+* DELETE /api/courses/:id: Delete a course by ID
+
+Response: A success message indicating that the course has been deleted.
+
 
 ## Installation
 
