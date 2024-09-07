@@ -31,7 +31,6 @@ This project is intended as a learning tool and can be used as a sample project 
 ***
 ## Screenshots
 ![Screenshot 2023-07-25 210844](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/0cba8d5b-6a47-4721-ac9f-4279107c257e)
-![Screenshot 2023-07-25 211309](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/62c33b56-0bd5-4330-b1db-d41b80d9f69f)
 <details>
   <summary>More screenshots</summary>
   
@@ -51,7 +50,7 @@ This project is intended as a learning tool and can be used as a sample project 
 
 1. Clone the repository to your local machine.
     ```sh
-    git clone https://github.com/himanshu8443/Study-Notion-master.git
+    git clone https://github.com/Gajendrapatel09/StudyNotion.git
     ```
 
 2. Install the required packages.
