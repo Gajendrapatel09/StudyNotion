@@ -3,6 +3,15 @@
 StudyNotion is a versatile and intuitive ed-tech platform that enables users to create, consume, and rate educational content. It provides a seamless and interactive learning experience for students while offering a platform for instructors to showcase their expertise and connect with learners worldwide. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.
 
 ***
+
+# System Architecture
+The StudyNotion ed-tech platform follows a client-server architecture with the following main components:
+
+* Front-end: Built with ReactJS, it communicates with the back end using RESTful API calls.
+* Back-end: Developed with NodeJS and ExpressJS, it handles user authentication, course management, and more.
+* Database: Utilizes MongoDB as a NoSQL database to store course content, user data, and other relevant information.
+![system architecture studynotion](https://github.com/user-attachments/assets/48ba4378-0d66-4b0f-8ab0-6e8fe6d8c11e)
+
 ## Features
 
 * User Authentication: Study Notion provides secure user registration and authentication using JWT (JSON Web Tokens). Users can sign up, log in, and manage their 
@@ -22,6 +31,27 @@ StudyNotion is a versatile and intuitive ed-tech platform that enables users to 
  dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in 
  each course, track course performance, and view their income generated from course sales.
 
+# Front-end
+The front end of StudyNotion is built with ReactJS, offering a dynamic and responsive user interface for students and instructors. Here are some key pages and functionalities:
+
+For Students:
+
+* Homepage: Introduction to the platform.
+* Course List: List of available courses with descriptions and ratings.
+* Wishlist: Display added courses.
+* Cart Checkout: Complete course purchase using Razorpay.
+* Course Content: Access course material, including videos.
+* Enrolled Courses: Progress and list of enrolled courses.
+* User Details: Account information.
+* User Edit Details: Edit account information.
+
+For Instructors:
+
+* Dashboard: Overview of instructor's courses and ratings.
+* Insights: Detailed course including the number of views, clicks, and other relevant metrics.
+* Course Management Pages: Create, update, delete courses.
+* View and Edit Profile Details: Account management.
+* Front-end tools and technologies include ReactJS, CSS, Tailwind CSS, Redux for state management, and VSCode for development.Additionally, we use some npm packages to add extra functionality to the front end.
   
 ***
 ## Screenshots
